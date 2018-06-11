@@ -13,7 +13,7 @@ provides 'libmaxminddb::repository'
 recipe 'libmaxminddb::repository', 'Add libmaxminddb repository to a system'
 
 provides 'libmaxminddb::install_package'
-recipe 'libmaxminddb::install_package', 'Install Yarn'
+recipe 'libmaxminddb::install_package', 'Install libmaxminddb'
 
 provides 'libmaxminddb::upgrade_package'
 recipe 'libmaxminddb::upgrade_package', 'Install the latest version of libmaxminddb'
