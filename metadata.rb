@@ -4,7 +4,7 @@ maintainer_email 'aspyatkin@gmail.com'
 license 'MIT'
 description 'Install libmaxminddb'
 long_description ::IO.read(::File.join(::File.dirname(__FILE__), 'README.md'))
-version '1.0.0'
+version '1.0.1'
 
 provides 'libmaxminddb::default'
 recipe 'libmaxminddb::default', 'Install or upgrade libmaxminddb'
